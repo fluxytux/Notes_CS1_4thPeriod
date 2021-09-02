@@ -1,9 +1,14 @@
 package notes;
 
 /*
+<<<<<<< Updated upstream
  * Notes on how to print to the screen
  * Also includes Escape Sequences
  * 
+=======
+ * Notes on how to print the screen
+ * Also includes Escape Sequences
+>>>>>>> Stashed changes
  */
 
 public class Notes01_Printing_and_Escape_Sequences {
@@ -27,13 +32,23 @@ public class Notes01_Printing_and_Escape_Sequences {
 		System.out.println("When I was\ngoing to Saint Eyve's");
 		System.out.println("\\");
 		
+<<<<<<< Updated upstream
 		problem1();
 		problem1();
 		problem1();
 		problem1();
 		problem1();
 		problem1();
+=======
+		System.out.print("Sup yo!");
+		System.out.println("😎");
 		
+		System.out.println("Hunter loves CS1");
+		
+		System.out.println("Adam said, \"I'm tired\"");
+>>>>>>> Stashed changes
+		
+		System.out.println("\\\\");
 	}
 	
 	
