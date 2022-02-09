@@ -39,19 +39,39 @@ public class Notes13_MathMethods {
 		 * Max and Min
 		 * See Notes09_Accumulation
 		 * 
-		 * When looking for a max and min, set them to extremes to start
+		 * 
+		 * When find a max or a min, you want to start
+		 * at the extremes
 		 * 
 		 * Integer.MAX_VALUE
-		 * Integer.MIN_VALUE	
+		 * Integer.MIN_VALUE
 		 * 
+		 * Math.max(num, num)
+		 * Math.min(num, num)
 		 * 
-		 */
-		
-		int max = Integer.MIN_VALUE; //Set max a low as possible
-		int min = Integer.MAX_VALUE; //Set min a high as possible
+		 */ 
+		int max = Integer.MIN_VALUE;
+		int min = Integer.MAX_VALUE;
 		System.out.println(max);
 		System.out.println(min + "\n");
 		//Now loop to find max and mins
+		
+		int x1 = 7, x2 = -3, x3 = 12, x4 = -5;
+		
+		System.out.println(max);  //1st
+		
+		max = Math.max(max, x1);
+		System.out.println(max);  //2nd
+		
+		max = Math.max(max, x2);
+		System.out.println(max);  //3rd
+		
+		max = Math.max(max, x3);
+		System.out.println(max);  //4th
+		
+		max = Math.max(max, x4);
+		System.out.println(max + "\n");  //5th
+		//You'd never do it like that, it just acts like a loop
 		
 		
 		
