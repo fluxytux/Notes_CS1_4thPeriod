@@ -19,7 +19,7 @@ public class Notes15_String_Methods {
 		
 		String word1 = "apples";
 		String word2 = "bananas!!";
-		System.out.println(word1.length());
+		System.out.println(word1.length()  );
 		System.out.println(word2.length());
 		
 		

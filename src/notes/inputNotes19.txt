@@ -1,0 +1,4 @@
+6
+4 5 -2 6 9 2345
+Hi by blueberry pie green purbleberry
+2.3 7.12 14.98 4.12 -.234 5.478
