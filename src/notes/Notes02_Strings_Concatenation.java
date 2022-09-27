@@ -73,7 +73,7 @@ public class Notes02_Strings_Concatenation {
 		 *   It is LITERALLY the letters
 		 */
 		
-		String word3 = "mouse";
+		
 		System.out.println("If you give a " + word3 + " a cookie...");
 		
 		String number = "5";
