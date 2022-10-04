@@ -28,7 +28,7 @@ public class Notes01_Printing_and_Escape_Sequences {
 		 *    \n  go to next line (print a return)
 		 *    \\  actually print a \ (don't start an escape sequence)
 		 */
-		System.out.println("Adam said, \"Im tired!\"");
+		System.out.println("Adam\n said, \"Im tired!\"");
 		System.out.println("When I was\ngoing to Saint Eyve's");
 		System.out.println("\\");
 		
